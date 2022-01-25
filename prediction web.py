@@ -56,11 +56,11 @@ def main():
     if t8 == "Nhà ngõ":
         t8 = 1
     if t8 == "Nhà phố liền kề":
-        t8 = 2
+        t8 = 1.2
     if t8 == "Nhà mặt phố":
-        t8 = 3
+        t8 = 1.6
     if t8 == "Nhà biệt thự":
-        t8 = 4
+        t8 = 3
     price = ''
     
     if st.button('Dự đoán'):
